@@ -1,0 +1,115 @@
+.task-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-container .search-input {
+    width: 600px; /* Fija el ancho del campo de búsqueda */
+    height: 20px; /* Ajusta la altura del campo de búsqueda */
+    padding: 10px; /* Ajusta el padding del campo de búsqueda */
+    font-size: 16px; /* Ajusta el tamaño de la fuente del campo de búsqueda */
+    margin-right: 15px;
+    margin-left: 150px;
+}
+
+.sort-buttons {
+    display: flex;
+}
+
+.sort-buttons button {
+    margin-left: 5px;
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 35px; /* Ajusta la altura del botón */
+    width: 140px; /* Ajusta el ancho del botón */
+}
+
+.sort-buttons button:hover {
+    background-color: #5a6268;
+}
+
+.table {
+    width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+    margin-top: 15px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: auto; /* Centra la tabla horizontalmente */
+    margin-right: auto; /* Centra la tabla horizontalmente */
+    background-color: white;
+    margin-bottom: 20px; /* Añade margen inferior para la tabla */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Añade una sombra suave a la tabla */
+    background-color: white;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6; /* Añade un borde inferior a las celdas */
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold; /* Añade negrita a los encabezados */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1; /* Cambia el fondo al pasar el mouse por encima */
+}
+
+.button-completar {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-completar:hover {
+    background-color: #218838;
+}
+
+.button-eliminar {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-eliminar:hover {
+    background-color: #c82333;
+}

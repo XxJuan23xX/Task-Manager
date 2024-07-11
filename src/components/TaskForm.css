@@ -1,0 +1,57 @@
+.card {
+    width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 500px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group1 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group1 label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.form-control {
+    height: 20px; /* Ajusta la altura de los campos de entrada */
+    padding: 8px; /* Ajusta el padding de los campos de entrada */
+    font-size: 14px; /* Ajusta el tamaño de la fuente de los campos de entrada */
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-morado-brillante {
+    background-color: #9b59b6;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-morado-brillante:hover {
+    background-color: #8e44ad;
+}

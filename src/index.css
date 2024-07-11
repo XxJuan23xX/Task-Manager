@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-page, .login-page, .register-page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome-page {
+  background-color: blue; /* Cambia a la ruta de tu imagen */
+}
+
+.login-page {
+  background-color: white; /* Cambia a la ruta de tu imagen */
+}
+
+.register-page {
+  background-color: white; /* Cambia a la ruta de tu imagen */
+}
+
+.task-page {
+  background-image: url('./PLAYA.jpg'); /* Cambia a la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  flex: 1; /* Asegura que el contenedor ocupe el espacio disponible */
+}
+
+.task-list {
+  margin-top: 20px;
+  margin-bottom: 20px; /* Añade margen inferior para separar la tabla del final de la página */
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search-container .search-input {
+  width: 800px; /* Fija el ancho del campo de búsqueda */
+  height: 20px; /* Ajusta la altura del campo de búsqueda */
+  padding: 10px; /* Ajusta el padding del campo de búsqueda */
+  font-size: 16px; /* Ajusta el tamaño de la fuente del campo de búsqueda */
+  margin-right: 15px;
+  margin-left: 60px;
+}
+
+.sort-buttons {
+  display: flex;
+}
+
+.sort-buttons button {
+  margin-left: 5px;
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 35px; /* Ajusta la altura del botón */
+  width: 140px; /* Ajusta el ancho del botón */
+}
+
+.sort-buttons button:hover {
+  background-color: #5a6268;
+}
+
+.table {
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 20px; /* Añade margen inferior para la tabla */
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 150px;
+  background-color: white;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

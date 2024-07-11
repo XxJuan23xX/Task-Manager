@@ -1,0 +1,103 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f57c00; /* Color de fondo principal */
+}
+
+.register-box {
+    display: flex;
+    max-width: 900px;
+    background: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 450px;
+}
+
+.register-image {
+    flex: 1;
+    background: url('../WELCOME.jpg') center center/cover; /* Ajusta la ruta según tu estructura de carpetas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.register-image h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.register-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    color: #bdc3c7;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #bdc3c7;
+    background: none;
+    color: #ecf0f1;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-bottom: 1px solid #f57c00;
+    outline: none;
+}
+
+.register-button {
+    background: #e67e22;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    color: #ecf0f1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-button:hover {
+    background: #d35400;
+}
+
+.login-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-link p {
+    color: #bdc3c7;
+    font-size: 0.875rem;
+}
+
+.login-link span {
+    color: #f57c00;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-link span:hover {
+    color: #e67e22;
+}

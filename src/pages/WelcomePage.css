@@ -1,0 +1,42 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../WELCOMEPAGE.jpg') center center/cover; /* Ajusta la ruta según tu estructura de carpetas */
+    color: white;
+    text-align: center;
+}
+
+.welcome-content {
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.welcome-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.welcome-button {
+    background: #19d825;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.welcome-button:hover {
+    background: #219150;
+}
